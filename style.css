@@ -7,6 +7,7 @@ body {
 #all-contents {
   max-width: 800px;
     margin: auto;
+
 }
 
 /* navigation menu */
@@ -16,7 +17,7 @@ nav {
     margin-bottom: 20px;
     display: flex;
     padding: 10px;
-    font-family: Geogria
+    font-family: Geogria;
     border-radius: 25px;
 }
 h1 {
@@ -26,7 +27,7 @@ h1 {
     flex: 1;
     margin: 0;
     font-family: Georgia;
-    text-shadow: 3px 3px darkblue ;
+    text-shadow: 3px 3px rgb(0, 0, 0) ;
 }
 #nav-ul {
     list-style-image: none;
@@ -35,15 +36,14 @@ h1 {
     display: inline-block;
     padding: 0 10px;
 }
-a {
-    text-decoration: none;
-    color: #fff;
+a{
+    color: white;
 }
-
 /* main container area beneath menu */
 main {
     background: rgb(245, 238, 219);
     display: flex;
+    border-radius: 25px;
 }
 .sidebar {
     margin-right: 25px;
@@ -51,12 +51,13 @@ main {
 }
 .sidebar-img {
     width: 200px;
+    border-radius: 25px;
 }
 .content {
     flex: 1;
     padding: 15px;
     font-family: Georgia;
-    text-shadow: 3px 3px 10px black
+    text-shadow: 3px 3px 10px black;
 }
 
 /* portfolio styles */
@@ -67,6 +68,7 @@ main {
     font-size: 18px;
     border-style: dotted dashed solid double;
     border-color: black;
+    border-radius: 25px;
 }
 h2, h3 {
     margin: 0px;
