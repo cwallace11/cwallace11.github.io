@@ -59,17 +59,40 @@ main {
     font-family: Georgia;
     text-shadow: 3px 3px 10px black;
 }
-
-/* portfolio styles */
 #interests {
     border: 4px silver ridge;
     padding: 8px;
     font-family: Times New Roman;
     font-size: 18px;
     border-style: dotted dashed solid double;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     border-radius: 25px;
 }
 h2, h3 {
     margin: 0px;
+}
+/* portfolio styles */
+.content h1 {
+  color: rgb(255, 255, 255);
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #ff9100;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #fdfbfb;
 }
