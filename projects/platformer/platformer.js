@@ -76,9 +76,10 @@ createCollectable('database', 600, 300, 2, .5)
 
 createCannon('top', 500, 1500, 10, 10)
 createCannon('right', 400, 2000, 10, 10)
-createCannon('top', 900, 2500, 10, 10)
+createCannon('top', 900, 2000, 10, 10)
 createCannon('left', 75, 2500, 10, 10)
 createCannon('left', 400, 1500, 10, 10)
+teleportTo(700,700)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
