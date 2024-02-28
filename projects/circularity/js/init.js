@@ -22,6 +22,7 @@ var init = function (window) {
         // TODO 1 : Declare and initialize our variables
         var circle
         var circles = []
+        var circlesNumber = prompt("Please enter the number of circles desired.")
         // TODO 2 : Create a function that draws a circle 
         function drawCircle(){
             circle = draw.randomCircleInArea(canvas, false, false, "#000", 2);
@@ -31,7 +32,7 @@ var init = function (window) {
         }
 
         // TODO 3 / 7 : Call the drawCircle() function 
-           for(var i = 0; i <= 100; i++){
+           for(var i = 0; i <= circlesNumber; i++){
             drawCircle()
            }
         ////////////////////////////////////////////////////////////
