@@ -24,7 +24,7 @@ var init = function (window) {
         var circles = []
         // TODO 2 : Create a function that draws a circle 
         function drawCircle(){
-            circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
+            circle = draw.randomCircleInArea(canvas, false, false, "#000", 2);
             physikz.addRandomVelocity(circle, canvas);
             view.addChild(circle);
             circles.push(circle);
